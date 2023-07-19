@@ -18,34 +18,17 @@ find_package(Threads REQUIRED)
 include_directories(.)
 
 add_executable(Altair
-        src/constants.h
         src/main.cpp
         src/move.cpp
-        src/move.h
         src/perft.cpp
-        src/perft.h
         src/position.cpp
-        src/position.h
         src/search.cpp
-        src/search.h
         src/useful.cpp
-        src/useful.h
         src/uci.cpp
-        src/uci.h
-        src/zobrist.h
         src/bench.cpp
-        src/bench.h
         src/see.cpp
-        src/see.h
-        src/types.h
         src/bitboard.cpp
-        src/bitboard.h
-        src/tables.h
-        src/fixed_vector.h
         src/evaluation.cpp
-        src/evaluation.h
-        src/evaluation_constants.h
-        src/move_ordering.cpp
-        src/move_ordering.h)
+        src/move_ordering.cpp)
 
 target_link_libraries(Altair Threads::Threads)
