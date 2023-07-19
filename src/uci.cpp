@@ -28,7 +28,7 @@ void UCI::initialize_uci() const {
 }
 
 
-void  UCI::time_handler(double self_time, double inc, double movetime, long movestogo) const {
+void UCI::time_handler(double self_time, double inc, double movetime, long movestogo) const {
     double rate = 20;
     double time_amt;
 

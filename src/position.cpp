@@ -821,4 +821,3 @@ void Position::undo_null_move(State_Struct& state_struct, PLY_TYPE& fifty_move) 
     our_pieces = opp_pieces;
     opp_pieces = temp_our_pieces;
 }
-

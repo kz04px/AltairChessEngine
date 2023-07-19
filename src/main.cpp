@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include "position.h"
 #include "perft.h"

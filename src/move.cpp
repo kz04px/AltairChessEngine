@@ -1,4 +1,3 @@
-
 #include "position.h"
 #include "move.h"
 
@@ -65,4 +64,3 @@ Move::Move(const Position& position, std::string uci) {
     if (move_type == MOVE_TYPE_PROMOTION) move |= promotion_type << 14;
 
 }
-

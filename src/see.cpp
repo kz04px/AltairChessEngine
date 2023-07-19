@@ -110,4 +110,3 @@ SCORE_TYPE get_static_exchange_evaluation(Position& position, Move move, SCORE_T
 
 
 }
-
