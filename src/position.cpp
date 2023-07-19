@@ -806,9 +806,7 @@ void Position::make_null_move(State_Struct& state_struct, PLY_TYPE& fifty_move) 
 
     fifty_move = 0;
 
-    BITBOARD temp_our_pieces = our_pieces;
-    our_pieces = opp_pieces;
-    opp_pieces = temp_our_pieces;
+    std::swap(our_pieces, opp_pieces);
 }
 
 void Position::undo_null_move(State_Struct& state_struct, PLY_TYPE& fifty_move) {
@@ -817,7 +815,5 @@ void Position::undo_null_move(State_Struct& state_struct, PLY_TYPE& fifty_move) 
     hash_key = state_struct.current_hash_key;
     fifty_move = state_struct.current_fifty_move;
 
-    BITBOARD temp_our_pieces = our_pieces;
-    our_pieces = opp_pieces;
-    opp_pieces = temp_our_pieces;
+    std::swap(our_pieces, opp_pieces);
 }
