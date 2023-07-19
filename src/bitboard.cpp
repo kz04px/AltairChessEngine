@@ -6,6 +6,7 @@
 #include <iostream>
 #include <bitset>
 #include <algorithm>
+#include <string>
 #include "types.h"
 #include "bitboard.h"
 

@@ -6,8 +6,11 @@
 #define ALTAIRCHESSENGINE_MOVE_ORDERING_H
 
 #include "types.h"
-#include "search.h"
-#include "fixed_vector.h"
+#include "move.h"
+
+class Thread_State;
+template <typename T, size_t FixedSize>
+class FixedVector;
 
 constexpr SCORE_TYPE SEE_MOVE_ORDERING_THRESHOLD = -108;
 

@@ -4,8 +4,8 @@
 // Major contributions by Archishmaan Peyyety as a pull request to Alex2262/BitboardEngine
 
 #include <cstdint>
+#include <string>
 #include "types.h"
-#include "string"
 
 enum MoveType : uint8_t {
     MOVE_TYPE_NORMAL	= 0b0000,

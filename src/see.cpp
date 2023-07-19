@@ -4,8 +4,9 @@
 
 #include <vector>
 #include <utility>
-#include <iostream>
 #include "see.h"
+#include "tables.h"
+#include "position.h"
 
 BITBOARD get_all_attackers(Position& position, Square square) {
 

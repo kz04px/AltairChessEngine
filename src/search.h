@@ -5,8 +5,13 @@
 #ifndef ANTARESCHESSENGINE_SEARCH_H
 #define ANTARESCHESSENGINE_SEARCH_H
 
+#include <cstdint>
 #include <vector>
+#include <string>
 #include "position.h"
+#include "types.h"
+#include "move.h"
+#include "constants.h"
 
 struct TT_Entry {
     HASH_TYPE key = 0;

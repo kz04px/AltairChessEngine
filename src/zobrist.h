@@ -5,8 +5,7 @@
 #ifndef ANTARESCHESSENGINE_ZOBRIST_H
 #define ANTARESCHESSENGINE_ZOBRIST_H
 
-#include <random>
-#include "constants.h"
+#include <cstdint>
 #include "types.h"
 
 

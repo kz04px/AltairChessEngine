@@ -5,7 +5,9 @@
 #ifndef ANTARESCHESSENGINE_PERFT_H
 #define ANTARESCHESSENGINE_PERFT_H
 
-#include "position.h"
+#include "types.h"
+
+class Position;
 
 struct Perft_Result_Type {
     int total_amount;

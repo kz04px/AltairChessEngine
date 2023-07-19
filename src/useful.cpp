@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <cassert>
 #include "constants.h"
-#include "types.h"
+#include "useful.h"
 
 template <typename Out>
 void split(const std::string &s, char delim, Out result) {

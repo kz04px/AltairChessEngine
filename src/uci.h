@@ -5,9 +5,11 @@
 #ifndef ANTARESCHESSENGINE_UCI_H
 #define ANTARESCHESSENGINE_UCI_H
 
+#include <memory>
+#include <string>
 #include <thread>
 #include <vector>
-#include "position.h"
+#include "move.h"
 #include "search.h"
 
 class UCI {

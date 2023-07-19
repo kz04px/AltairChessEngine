@@ -4,7 +4,11 @@
 
 #include <iostream>
 #include <chrono>
+#include <string>
 #include "bench.h"
+#include "constants.h"
+#include "search.h"
+#include "position.h"
 
 // A list of many fens that include famous positions from notable games, some of my personal games,
 // and other chess studies.

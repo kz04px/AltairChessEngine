@@ -2,9 +2,9 @@
 // Created by Alexander Tian on 6/26/23.
 //
 
-#include <iostream>
 #include "evaluation.h"
 #include "evaluation_constants.h"
+#include "tables.h"
 
 void initialize_evaluation_information(Position& position, EvaluationInformation& evaluation_information) {
     evaluation_information.game_phase = 0;

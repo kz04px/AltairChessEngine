@@ -6,7 +6,9 @@
 #define ALTAIRCHESSENGINE_TABLES_H
 
 #include <array>
+#include <cstdint>
 #include "bitboard.h"
+#include "types.h"
 
 // A lot of code in here is influenced by Archishmaan Peyyety (Archi) & Conor Anstey (Ciekce)
 

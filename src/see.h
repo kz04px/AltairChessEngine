@@ -5,9 +5,11 @@
 #ifndef ALTAIRCHESSENGINE_SEE_H
 #define ALTAIRCHESSENGINE_SEE_H
 
-#include "constants.h"
-#include "position.h"
+#include "bitboard.h"
+#include "types.h"
 #include "move.h"
+
+class Position;
 
 constexpr SCORE_TYPE SEE_values[13] = {100, 350, 360, 560, 1300, 10000,
                                       100, 350, 360, 560, 1300, 10000, 0};

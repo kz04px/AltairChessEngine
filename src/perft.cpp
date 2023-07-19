@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <chrono>
+#include "position.h"
 #include "perft.h"
 #include "move.h"
 

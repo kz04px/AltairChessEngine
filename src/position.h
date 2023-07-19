@@ -5,12 +5,13 @@
 #ifndef ANTARESCHESSENGINE_POSITION_H
 #define ANTARESCHESSENGINE_POSITION_H
 
+#include <array>
+#include <cstdint>
 #include <string>
 #include "constants.h"
 #include "types.h"
 #include "fixed_vector.h"
 #include "bitboard.h"
-#include "tables.h"
 #include "move.h"
 
 

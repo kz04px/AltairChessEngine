@@ -13,6 +13,7 @@
 #include "perft.h"
 #include "bench.h"
 #include "see.h"
+#include "position.h"
 
 void UCI::initialize_uci() const {
     engine->transposition_table.resize(MAX_TT_SIZE);
